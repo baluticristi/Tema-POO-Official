@@ -26,7 +26,7 @@ int clientConnection::enstablish_Connection()
     std::string ip, check;
 
 
-    srv.sin_addr.s_addr = inet_addr("192.168.56.1");
+    srv.sin_addr.s_addr = inet_addr("172.20.10.14");
 
 
     memset(&srv.sin_zero, 0, 8);
@@ -53,28 +53,28 @@ int clientConnection::enstablish_Connection()
 }
 
 //////////////////FUNCTIA DE TRIMITERE MESAJ///////
-int clientConnection::sendInput(string input){
+//int clientConnection::sendInput(string input){
 
-    int result=0;
-    ////trimite mesajul
-    result=send(nClientSocket, input.c_str(), input.size()+1, 0);
+//    int result=0;
+//    ////trimite mesajul
+//    result=send(nClientSocket, input.c_str(), input.size()+1, 0);
 
-    if(result!=SOCKET_ERROR){
+//    if(result!=SOCKET_ERROR){
 
-        /// asteapta pentru un raspuns
-        int bytesReceived = recv(nClientSocket,buff,255, 0 );
+//        /// asteapta pentru un raspuns
+//        int bytesReceived = recv(nClientSocket,buff,255, 0 );
 
-        /// fa ceva cu raspunsul
-        if(bytesReceived>0){
-            cout<<"\n SERVER SAYS: "<<string(buff, 0, bytesReceived)<<endl;
-        }
+//        /// fa ceva cu raspunsul
+//        if(bytesReceived>0){
+//            cout<<"\n SERVER SAYS: "<<string(buff, 0, bytesReceived)<<endl;
+//        }
 
-    }
-    else{
-        ///Handle the error
-        cout<<"\n[EROARE]: SOCKET ERROR;\n";
-    }
+//    }
+//    else{
+//        ///Handle the error
+//        cout<<"\n[EROARE]: SOCKET ERROR;\n";
+//    }
 
-    return 0;
+//    return 0;
 
-}
+//}

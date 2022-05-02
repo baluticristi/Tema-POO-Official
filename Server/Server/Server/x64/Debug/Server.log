@@ -1,0 +1,9 @@
+﻿  InterpretorMesaje.cpp
+C:\Users\balut\Documents\Tema-POO\Server\Server\Server\InterpretorMesaje.cpp(24,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\balut\Documents\Tema-POO\Server\Server\Server\InterpretorMesaje.cpp(28,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\balut\Documents\Tema-POO\Server\Server\Server\InterpretorMesaje.cpp(78,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\balut\Documents\Tema-POO\Server\Server\Server\InterpretorMesaje.cpp(83,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\balut\Documents\Tema-POO\Server\Server\Server\InterpretorMesaje.cpp(87,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\balut\Documents\Tema-POO\Server\Server\Server\InterpretorMesaje.cpp(91,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\balut\Documents\Tema-POO\Server\Server\Server\InterpretorMesaje.cpp(139,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Server.vcxproj -> C:\Users\balut\Documents\Tema-POO\Server\Server\x64\Debug\Server.exe

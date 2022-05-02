@@ -1,4 +1,0 @@
-﻿  Server.cpp
-C:\Users\balut\Documents\Tema-POO\Server\Server\Server\Server.cpp(8,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-C:\Users\balut\Documents\Tema-POO\Server\Server\Server\Server.cpp(95,35): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  Server.vcxproj -> C:\Users\balut\Documents\Tema-POO\Server\Server\x64\Debug\Server.exe

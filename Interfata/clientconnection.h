@@ -20,7 +20,6 @@ private:
 public:
     clientConnection(){;}
     int enstablish_Connection();
-    int sendInput(string input);
 
 };
 

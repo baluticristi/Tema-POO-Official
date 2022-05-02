@@ -8,6 +8,11 @@ MainWindow::MainWindow(int socket, QWidget *parent)
 {
     ui->setupUi(this);
     nClientSocket=socket;
+//    QPixmap pix("C:/Users/danda/OneDrive/Documents/GitHub/Tema-POO/Interfata/img/Background.jpg");
+//    pix=pix.scaled(this->size(),Qt::IgnoreAspectRatio);
+//    QPalette pal;
+//    this->centralWidget()->setStyleSheet(
+//             "background-image:url(:/img/Background.jpg); background-position: center;" );
 }
 
 MainWindow::~MainWindow()
@@ -15,13 +20,26 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-//Button click function
 
-/*void MainWindow::on_ButonSaVadDacaMerge_clicked()
-{
-    clientConnection C;
-    int value=0;
-    value=C.sendInput("Bine");
+
+void MainWindow::creare_admin(){
+    hide();
+    windowsInstances::create_Instance(nClientSocket)->show_logareadmin();
 }
-*///work in progress......
+
+void MainWindow::creare_client()
+{
+    hide();
+    windowsInstances::create_Instance(nClientSocket)->show_logareclient();
+}
+void MainWindow::on_pushButton_clicked()
+{
+    creare_admin();
+}
+
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    creare_client();
+}
 

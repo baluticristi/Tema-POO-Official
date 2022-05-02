@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "windowsinstances.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -14,10 +15,14 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(int socket, QWidget *parent = nullptr);
     ~MainWindow();
+    void creare_client();
+    void creare_admin();
 
 private slots:
 
-    void on_ButonSaVadDacaMerge_clicked();
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
 
 private:
     Ui::MainWindow *ui;

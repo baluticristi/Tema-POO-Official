@@ -1,0 +1,10 @@
+Log|username|password| 					--Logare cont existent
+--connected		--Succes
+--denied		--Eroare
+
+Reg|username|password|Nume|Prenume|  	--Inregistrare cont nou
+--created 	--Succes
+--denied 	--Exista deja utilizatorul
+--username 	--Username prea scurt
+--parola 	--Parola prea scurta
+--nume 		--Lipsa nume
