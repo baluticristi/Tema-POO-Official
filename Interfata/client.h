@@ -32,11 +32,13 @@ public:
 private slots:
     void on_loginButton_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     Ui::client *ui;
     int socket;
     string buff;
-    char raspuns[255] = { 0, };
+    char raspuns[255];
     QString user,pass;
 };
 

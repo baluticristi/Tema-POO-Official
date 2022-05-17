@@ -1,7 +1,8 @@
-#include "mainwindow.h"
 #include "clientconnection.h"
+#include "windowsinstances.h"
 #include <QApplication>
 #include <QFile>
+
 
 int main(int argc, char *argv[])
 {

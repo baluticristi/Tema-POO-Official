@@ -9,29 +9,59 @@ CONFIG += c++11
 DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 LIBS += -lws2_32
 SOURCES += \
+    addloc.cpp \
+    addobiective.cpp \
+    addtrans.cpp \
     adminmeniu.cpp \
     client.cpp \
     clientconnection.cpp \
-    loginadmin.cpp \
+    clientmenu.cpp \
+    delob.cpp \
+    dobiective.cpp \
+    dtrans.cpp \
+    istoricclient.cpp \
+    listalocatii.cpp \
+    listatransport.cpp \
+    locatiemenu.cpp \
     main.cpp \
-    mainwindow.cpp \
+    oblictiveturistice.cpp \
     sign_in.cpp \
     windowsinstances.cpp
 
 HEADERS += \
+    addloc.h \
+    addobiective.h \
+    addtrans.h \
     adminmeniu.h \
     client.h \
     clientconnection.h \
-    loginadmin.h \
-    mainwindow.h \
+    clientmenu.h \
+    delob.h \
+    dobiective.h \
+    dtrans.h \
+    istoricclient.h \
+    listalocatii.h \
+    listatransport.h \
+    locatiemenu.h \
+    oblictiveturistice.h \
     sign_in.h \
     windowsinstances.h
 
 FORMS += \
+    addloc.ui \
+    addobiective.ui \
+    addtrans.ui \
     adminmeniu.ui \
     client.ui \
-    loginadmin.ui \
-    mainwindow.ui \
+    clientmenu.ui \
+    delob.ui \
+    dobiective.ui \
+    dtrans.ui \
+    istoricclient.ui \
+    listalocatii.ui \
+    listatransport.ui \
+    locatiemenu.ui \
+    oblictiveturistice.ui \
     sign_in.ui
 
 # Default rules for deployment.

@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>400</height>
+    <width>624</width>
+    <height>436</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>40</x>
@@ -31,9 +31,9 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton_4">
+     <widget class="QPushButton" name="delObiectiv">
       <property name="text">
-       <string>Del Mijloace Transport</string>
+       <string>Del Obiective Turistice</string>
       </property>
      </widget>
     </item>
@@ -45,9 +45,9 @@
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="delObiectiv">
+     <widget class="QPushButton" name="pushButton_4">
       <property name="text">
-       <string>Del Obiective Turistice</string>
+       <string>Del Mijloace Transport</string>
       </property>
      </widget>
     </item>
@@ -66,6 +66,19 @@
      </widget>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>380</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
   </widget>
  </widget>
  <resources/>

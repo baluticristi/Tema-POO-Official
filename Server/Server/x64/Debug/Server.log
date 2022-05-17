@@ -1,0 +1,7 @@
+﻿  InterpretorMesaje.cpp
+C:\Users\balut\Desktop\TEMA POO\Server\Server\InterpretorMesaje.cpp(8,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\balut\Desktop\TEMA POO\Server\Server\InterpretorMesaje.cpp(62,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\balut\Desktop\TEMA POO\Server\Server\InterpretorMesaje.cpp(66,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\balut\Desktop\TEMA POO\Server\Server\InterpretorMesaje.cpp(91,6): warning C4101: 'camere': unreferenced local variable
+C:\Users\balut\Desktop\TEMA POO\Server\Server\InterpretorMesaje.cpp(619,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Server.vcxproj -> C:\Users\balut\Desktop\TEMA POO\Server\x64\Debug\Server.exe

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CCodificator" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQASBAAAAAAAAQAAAAAAAQAgEQAIAAAAAAAAEAAA=</HashCode>
+      <FileName>CCodificator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CConexiune" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAIAAAAQQAEAAAhAAAAAAAIABAAAABQQAAMA=</HashCode>
+      <FileName>CConexiune.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDatabase" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAACQAAAAAAAAAAAAAACAAAAAAAAAgAAAAAABIAAA=</HashCode>
+      <FileName>CDatabase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUser" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAIEAAAAAAAAAAAAEAAAAAgA=</HashCode>
+      <FileName>CUser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICConexiune" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAQQAAAAAgAAAAAAAAAAAAAAAQQAAMA=</HashCode>
+      <FileName>ICConexiune.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICUser" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICUser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDatabase" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IDatabase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterpretorMesaje" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAEAEAQEAKAAEAgIAAAEAACAAQRAIABAEQAAAQBA=</HashCode>
+      <FileName>InterpretorMesaje.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
